@@ -11,7 +11,7 @@
 
 ** in fact this library is just a simplified version of [MediatoR](https://github.com/jbogard/MediatR)
 
-** Big Thanks [Jimmy Bogard](https://github.com/jbogard)
+** Big Thanks to [Jimmy Bogard](https://github.com/jbogard)
 
 
 ### Installing CalcEngine
