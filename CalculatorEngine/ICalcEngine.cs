@@ -2,5 +2,5 @@
 
 public interface ICalcEngine
 {
-    Task<TResult> Calc<TResult>(IParam<TResult> param,CancellationToken cancellationToken);
+    Task<TResult> Calc<TResult>(IParam<TResult> param,CancellationToken cancellationToken = default);
 }
