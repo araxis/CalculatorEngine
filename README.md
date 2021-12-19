@@ -53,7 +53,7 @@ Or via the .NET Core command line interface:
       }
   }
   
-  //or for unasyn calculations you can use SyncCalculator for simplicity
+  //or for calculators that calculate synchronously
   
   public class SumCalculator:SyncCalculator<SumParam,double>
 {
