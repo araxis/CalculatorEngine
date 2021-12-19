@@ -2,6 +2,9 @@
 
 
 
+
+
+
 ## Calculator Engine
 [![Arax.CalcEngine - NuGet](https://img.shields.io/badge/nuget-Arax.CalcEngine-blue)](https://www.nuget.org/packages/Arax.CalcEngine)
 [![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)](https://img.shields.io/nuget/dt/Arax.CalcEngine) 
@@ -13,6 +16,7 @@
 
 ** Big Thanks to [Jimmy Bogard](https://github.com/jbogard)
 
+<img src="https://github.com/araxis/CalculatorEngine/blob/10f392f76587a7e211cd05707ccbf61d94f96a37/CalculatorEngine/calculator-icon.png" width="50" height="50">
 
 ### Installing CalcEngine
 
