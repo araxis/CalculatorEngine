@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;netstandard2.0;net6.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>10.0</LangVersion>
@@ -10,6 +10,8 @@
     <Description>CalcEngine is designed to implement any type of calculator and execute it.</Description>
     <PackageProjectUrl>https://github.com/araxis/CalculatorEngine</PackageProjectUrl>
     <RepositoryUrl>https://github.com/araxis/CalculatorEngine</RepositoryUrl>
+    <PackageTags>engine;calculator</PackageTags>
+    <Copyright>Copyright Meisam alifallahi</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
