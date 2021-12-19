@@ -27,7 +27,7 @@ Or via the .NET Core command line interface:
     
 ## Add to ServiceCollection
 ```csharp
-   //aadd engine and calculators in current assembly
+   //add engine and calculators in current assembly
    builder.Services.AddCalculator();
    
    //for add calculators from another assemplies
