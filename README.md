@@ -45,7 +45,7 @@ Or via the .NET Core command line interface:
       public async Task<double> Calc(SumParam param,CancellationToken cancellationToken)
       {
           //do calculation 
-          //return Task<double>
+          //return result
       }
   }
   
@@ -56,7 +56,7 @@ Or via the .NET Core command line interface:
     protected override double Calc(SumParam param)
     {
         //do calculation logit
-       // return double
+       // return result
     }
 }
   
