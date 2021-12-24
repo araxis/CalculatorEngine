@@ -10,7 +10,7 @@
 [![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine)
 [![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine) 
 
-`CalcEngine` is designed to implement any type of calculator and execute it.
+`CalcEngine` is designed to implement and ececute any type of calculator.
 
 ** in fact this library is just a simplified version of [MediatoR](https://github.com/jbogard/MediatR)
 
@@ -33,12 +33,12 @@ Or via the .NET Core command line interface:
    //add engine and calculators in current assembly
    builder.Services.AddCalculator();
    
-   //for add calculators from another assemplies
+   //to add calculators from another assemplies
    builder.Services.InstallCalculators(assembly1,assembly2)
 ```
 ##  Make calculator 
 ```csharp
-    //first cdefine parameter with IParam<TResult>
+    //first define parameter with IParam<TResult>
     public record SumParam(double Left, double Right) : IParam<double>;
     
     //define calculator
@@ -58,7 +58,7 @@ Or via the .NET Core command line interface:
 {
     protected override double Calc(SumParam param)
     {
-        //do calculation logit
+        // calculation logic
        // return result
     }
 }
