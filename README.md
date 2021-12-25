@@ -12,7 +12,7 @@
 
 `CalcEngine` is designed to implement and ececute any type of calculator.
 
-** in fact this library is just a simplified version of [MediatoR](https://github.com/jbogard/MediatR)
+** in fact this library is just a simplified version of [MediatR](https://github.com/jbogard/MediatR)
 
 ** Big Thanks to [Jimmy Bogard](https://github.com/jbogard)
 
