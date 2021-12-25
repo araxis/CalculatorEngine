@@ -10,7 +10,7 @@
 [![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine)
 [![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine) 
 
-`CalcEngine` is designed to implement and ececute any type of calculator.
+`CalcEngine` is designed to implement and execute any type of calculator.
 
 ** in fact this library is just a simplified version of [MediatR](https://github.com/jbogard/MediatR)
 
