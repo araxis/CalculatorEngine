@@ -1,8 +1,8 @@
 ## Calculator Engine
 
-![.NET](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml/badge.svg)
-![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)
-![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)
+[![.NET](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml/badge.svg)](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml)
+[![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine)
+[![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine) 
 
 `CalcEngine` is designed to implement and execute any type of calculator.
 
