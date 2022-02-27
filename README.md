@@ -1,12 +1,12 @@
 ## Calculator Engine
 
-[![.NET](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml/badge.svg)](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml)
-[![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine)
-[![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)](https://www.nuget.org/packages/Arax.CalcEngine) 
+![.NET](https://github.com/araxis/CalculatorEngine/actions/workflows/dotnet.yml/badge.svg)
+![NuGet](https://img.shields.io/nuget/vpre/Arax.CalcEngine.svg)
+![NuGet](https://img.shields.io/nuget/dt/Arax.CalcEngine.svg)
 
-`CalcEngine` is designed to implement and execute any type of calculator.
-
-\*\* in fact this library is just a simplified version of [MediatR](https://github.com/jbogard/MediatR), Big Thanks to [Jimmy Bogard](https://github.com/jbogard).
+`CalcEngine` is designed to implement and execute any type of calculator.  
+By building the library based on the open / close principle, it is possible to add new calculators without changing any existing code.
+It is useful when different solutions are available for calculating a parameter based on different inputs.
 
 see [Industrial Electricity Calculators](https://github.com/araxis/Industrial-Electricity-Calculators) for samples.
 
