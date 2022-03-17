@@ -1,4 +1,6 @@
-﻿namespace CalculatorEngine;
+﻿using CalculatorEngine.Abstract;
+
+namespace CalculatorEngine;
 
 internal interface IWrapper{}
 internal interface ICalculatorWrapper<TResult> :IWrapper
