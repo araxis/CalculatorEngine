@@ -37,4 +37,23 @@ internal class CalcEngine : ICalcEngine
     }
 
 
+    public Task Calc(IParam param, CancellationToken cancellationToken = default)
+    {
+        if (param is null)
+            throw new ArgumentNullException(nameof(param));
+
+
+
+        IWrapper CreateCalculator(Type type)
+        {
+            var wrapperType = typeof(CalculatorWrapper<>).MakeGenericType(type);
+            return (IWrapper)ActivatorUtilities.CreateInstance(_serviceProvider, wrapperType)!;
+        }
+
+
+        var calculator = CalculatorsCache.GetOrAdd(param.GetType(), CreateCalculator);
+        return ((ICalculatorWrapper)calculator).Calc(param, cancellationToken);
+
+    }
+
 }

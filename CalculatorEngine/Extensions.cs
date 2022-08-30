@@ -24,6 +24,9 @@ public static class Extensions
             .AddClasses(c =>
                 c.AssignableTo(typeof(ICalculator<,>)))
             .AsImplementedInterfaces()
+            .WithTransientLifetime()
+            .AddClasses(c=>c.AssignableTo(typeof(ICalculator<>)))
+            .AsImplementedInterfaces()
             .WithTransientLifetime());
         return services;
     }

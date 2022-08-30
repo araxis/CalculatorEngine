@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/araxis/CalculatorEngine</RepositoryUrl>
     <PackageTags>engine;calculator</PackageTags>
     <Copyright>Copyright Meisam alifallahi</Copyright>
-    <Version>$(VersionPrefix)1.0.8</Version>
+    <Version>$(VersionPrefix)1.0.9</Version>
     <PackageIcon>logo.png</PackageIcon>
 
   
@@ -21,7 +21,8 @@
 
   <ItemGroup>
     <None Include="logo.png" Pack="true" PackagePath="" />
-    <PackageReference Include="Arax.CalcEngine.Abstract" Version="1.0.1" />
+    <PackageReference Include="Arax.CalcEngine.Abstract" Version="1.0.2" />
+   
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="Scrutor" Version="3.3.0" />
   </ItemGroup>
