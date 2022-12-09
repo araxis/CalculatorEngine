@@ -10,24 +10,8 @@ public static class Extensions
     {
        
         services.AddTransient<ICalcEngine, CalcEngine>();
-        InstallCalculators(services, AppDomain.CurrentDomain.GetAssemblies());
+        services.InstallCalculators( AppDomain.CurrentDomain.GetAssemblies());
         return services;
     }
-    public static IServiceCollection InstallCalculators(this IServiceCollection services,params Assembly[] assemblies)
-    {
-        if (!assemblies.Any())
-        {
-            throw new ArgumentException("No assemblies found to scan. Supply at least one assembly to scan for calculators.");
-        }
-      
-        services.Scan(s => s.FromAssemblies(assemblies)
-            .AddClasses(c =>
-                c.AssignableTo(typeof(ICalculator<,>)))
-            .AsImplementedInterfaces()
-            .WithTransientLifetime()
-            .AddClasses(c=>c.AssignableTo(typeof(ICalculator<>)))
-            .AsImplementedInterfaces()
-            .WithTransientLifetime());
-        return services;
-    }
+    
 }
